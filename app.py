@@ -30,7 +30,7 @@ if not st.session_state.login:
     st.stop()
 
 # 3. KONFIGURASI AI (Ganti 'ISI_API_KEY_KAMU' dengan API Key dari AI Studio)
-genai.configure(api_key="ISI_API_KEY_KAMU")
+genai.configure(api_key="AIzaSyDwrKgPOiwvoX1qr5KzN7PwNRZXW0gqfwI")
 
 st.title("📸 Lensa AI Pro Dashboard")
 st.write("---")
